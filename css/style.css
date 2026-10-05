@@ -1,0 +1,209 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+    background-color: #ffffff;
+    color: #333333;
+}
+
+a {
+    text-decoration: none;
+    color: inherit;
+}
+
+hr {
+    border: 0;
+    border-top: 1px solid #222222;
+    margin: 20px 0;
+}
+
+.header {
+    background-color: #000000;
+    color: #ffffff;
+    padding: 15px 30px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.logo a {
+    font-weight: bold;
+    font-size: 20px;
+    color: #ffffff;
+}
+
+.menu a {
+    color: #ffffff;
+    margin: 0 12px;
+    font-size: 14px;
+}
+
+.menu a:hover {
+    color: #aaaaaa;
+}
+
+.icones a {
+    color: #ffffff;
+    margin-left: 15px;
+    font-size: 13px;
+}
+
+.conteudo {
+    text-align: center;
+    padding: 60px 20px;
+}
+
+.conteudo h1 {
+    font-size: 26px;
+    margin-bottom: 10px;
+}
+
+/* Estilos do formulário principal */
+.main {
+    max-width: 500px;
+    margin: 40px auto;
+    padding: 0 20px;
+    font-family: Arial, sans-serif;
+    color: #333333;
+}
+
+.main h1 {
+    font-size: 24px;
+    margin-bottom: 10px;
+}
+
+.main p {
+    font-size: 13px;
+    margin-bottom: 10px;
+}
+
+.subtexto {
+    font-size: 12px;
+    color: #555555;
+    margin-bottom: 25px;
+}
+
+/* Campos do Formulário */
+form label {
+    display: block;
+    font-size: 12px;
+    font-weight: bold;
+    margin-top: 15px;
+    margin-bottom: 5px;
+}
+
+form input,
+form select {
+    width: 100%;
+    padding: 8px;
+    border: 1px solid #ccc;
+    font-size: 13px;
+    box-sizing: border-box;
+}
+
+.aviso {
+    display: block;
+    font-size: 11px;
+    color: #777777;
+    margin-top: 5px;
+    margin-bottom: 15px;
+}
+
+.termos {
+    font-size: 11px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+.termos a {
+    color: #0056b3;
+    text-decoration: underline;
+}
+
+/* Botão Enviar */
+form button {
+    background-color: #ffffff;
+    color: #000000;
+    border: 1px solid #000000;
+    padding: 8px 25px;
+    font-size: 13px;
+    cursor: pointer;
+}
+
+form button:hover {
+    background-color: #f0f0f0;
+}
+
+.footer {
+    background-color: #000000;
+    color: #ffffff;
+    padding: 30px 40px;
+    font-size: 12px;
+}
+
+.footer-topo {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.btn-noticias {
+    background-color: #222222;
+    color: #ffffff;
+    padding: 10px 15px;
+    font-weight: bold;
+    border: 1px solid #444444;
+}
+
+.btn-noticias:hover {
+    background-color: #333333;
+}
+
+.redes-sociais a {
+    color: #ffffff;
+    margin-left: 10px;
+}
+
+.footer-colunas {
+    display: flex;
+    justify-content: space-between;
+}
+
+.coluna {
+    width: 18%;
+}
+
+.coluna h4 {
+    margin-bottom: 12px;
+    font-size: 13px;
+    color: #ffffff;
+}
+
+.coluna a {
+    display: block;
+    color: #888888;
+    margin-bottom: 8px;
+}
+
+.coluna a:hover {
+    color: #ffffff;
+}
+
+.footer-baixo {
+    text-align: center;
+    color: #666666;
+    font-size: 11px;
+}
+
+.footer-baixo a {
+    color: #777777;
+}
+
+.footer-baixo a:hover {
+    color: #ffffff;
+}
+
+.copyright {
+    margin-top: 10px;
+    color: #555555;
+}
